@@ -1,0 +1,23 @@
+{
+  "cruder" : "Post",
+  "fields" : {
+    "title": {
+      "name": "post_title",
+      "type": "self"
+    },
+    "content": {
+      "name": "post_content",
+      "type": "self",
+      "options" : {
+        "readonly"  : true 
+      }
+    },
+    "age": {
+      "name": "age",
+      "type": "meta",
+      "options" : {
+        "readonly"  : false 
+      }
+    }
+  }
+}
